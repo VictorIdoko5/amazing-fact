@@ -1,122 +1,43 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Amazing Fun Facts</title>
-  </head>
-  <link rel="stylesheet" href="css/styles.css">
-<link rel="icon" href="images/icon.jpg">
-
-  <body>
-    <div class="support">
-    <div class="supportc">
-      <a href="Support Us.html">
-      <button  class="SuppotC">💖</button>
-      <p>Support Us</p>
-      </a>
-    </div>
-    </div>
-      <h1>Hello World</h1>
-    <h2><em>Welcome to the world of Amazing Facts </em></h2>
-      <div class="Hotfacts">
-        <div class="forText">
-          <h3>Did you Know?</h3>
-          <p>God is the creator of the universe?
-            <br>No matter how alot of people may doubt it, it is the most amazing fact
-          </p>
-        </div>
-      </div>
-      <p class="v1"><strong>Select the area of your interest and discover the most amazing facts ever!</strong></p>
-      <div class="choicecontainer">
-    <div class="choice-card">
-      <a href="Religion.html">
-        <img src="images/religion.jpg" alt="Religion">
-        <p>Facts about Religion</p>
-      </a>
-    </div>
-    <div class="choice-card">
-      <a href="cosmos.html">
-        <img src="images/space.jpg" alt="Cosmos">
-        <p>Facts of the Cosmos</p>
-      </a>
-    </div>
-    <div class="choice-card">
-      <a href="animal.html">
-        <img src="images/leopard.jpg" alt="Animals">
-        <p>Facts about Animals</p>
-      </a>
-    </div>
-    <div class="choice-card">
-      <a href="Love.html">
-        <img src="images/love.jpg" alt="Love">
-        <p>Facts about Love</p>
-      </a>
-    </div>
-    <div class="choice-card">
-      <a href="Cars.html">
-        <img src="images/car.jpg" alt="Cars">
-        <p>Facts about Cars</p>
-      </a>
-    </div>
-    <div class="choice-card">
-      <a href="phones.html">
-        <img src="images/phone.jpg" alt="Phones">
-        <p>Facts about Phones</p>
-      </a>
-    </div>
-    <div class="choice-card">
-      <a href="Innovation.html">
-        <img src="images/innovation.jpg" alt="Innovation">
-        <p>Facts about General Innovations</p>
-      </a>
-    </div>
-    <div class="choice-card">
-      <a href="Cities.html">
-        <img src="images/city7.jpg" alt="Religion">
-        <p>Facts about Cities</p>
-      </a>
-    </div>
-    <div class="choice-card">
-      <a href="Food.html">
-        <img class="food">
-        <p>Facts about Food</p>
-      </a>
-    </div>
-    <div class="choice-card">
-      <a href="Nigeria.html">
-        <img src="images/Niger1.jpg" alt="Religion">
-        <p>Facts about Nigeria</p>
-      </a>
-    </div>
-    <div class="choice-card">
-      <a href="Aeroplane.html">
-        <img src="images/air1.jpg" alt="Religion">
-        <p>Facts about Aeroplane</p>
-      </a>
-    </div>
-    <div class="choice-card">
-      <a href="Sports.html">
-        <img src="images/sport3.jpg" alt="Religion">
-        <p>Facts about Sports</p>
-      </a>
-    </div>
-  </div>
-  <!-- Welcome Modal -->
-<div id="welcomeModal" class="modal">
-  <div class="modal-content">
-    <h2>👋 Welcome!</h2>
-    <p>
-      Hi, this website was designed by <strong>Idoko Victor Oyare</strong>. A member of the VMC Team and Vic.Fab Tech Hub
-      We’re eager to share amazing facts with you, and your support means a lot!
-    </p>
-    <div class="modal-buttons">
-    <a href="Support Us.html"><button id="supportBtn">💖 Support Us</button></a>
-      <button id="laterBtn">Maybe Later</button>
-    </div>
-  </div>
+<!doctype html>
+</article>
 </div>
+</section>
 
 
-      <script src="index.js" charset="utf-8"></script>
-  </body>
+<section id="gallery" class="container gallery">
+<h2>Gallery</h2>
+<div class="gallery-grid">
+<!-- Add more images into assets/ and reference here -->
+<img loading="lazy" src="assets/machu-picchu.jpg" alt="Machu Picchu">
+<img loading="lazy" src="assets/pliitvice.jpg" alt="Plitvice lakes">
+<img loading="lazy" src="assets/reef.jpg" alt="Great Barrier Reef">
+</div>
+</section>
+
+
+<section id="about" class="container about">
+<h2>About</h2>
+<p class="muted">This mini-site is a visual guide — quick facts and photos to help you choose where to go next. Want deeper guides? We can add dedicated pages per destination in Step 4.</p>
+</section>
+
+
+<section id="contact" class="container contact">
+<h2>Contact</h2>
+<form onsubmit="event.preventDefault();alert('Form is a demo — we can wire it up later.')">
+<input placeholder="Your name" required>
+<input placeholder="Email" type="email" required>
+<textarea placeholder="Message" required></textarea>
+<button class="btn" type="submit">Send</button>
+</form>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<div class="container muted">Built for learning • Replace demo images in <code>/assets</code></div>
+</footer>
+
+
+<script src="index.js"></script>
+</body>
 </html>
