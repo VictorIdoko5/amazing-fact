@@ -1,1 +1,1 @@
-# amazing-fact
+discover amazing destinations
